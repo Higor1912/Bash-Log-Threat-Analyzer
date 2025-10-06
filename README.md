@@ -24,8 +24,5 @@ O script espera o caminho completo do log de autenticação como o primeiro argu
 2.  Acesso root/sudo ou permissão de leitura no arquivo de log (`/var/log/auth.log`).
 
 ```bash
-# 1. Torna o script executável
-chmod +x Log_Analyzer.sh
-
-# 2. Executa a análise (o caminho do log é o primeiro argumento)
+# Executa a análise (o caminho do log é o primeiro argumento)
 ./Log_Analyzer.sh /var/log/auth.log
