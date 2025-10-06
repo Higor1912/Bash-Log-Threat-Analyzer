@@ -15,14 +15,3 @@ Este projeto transforma logs brutos em **Threat Intelligence (TI)** acionável a
 
 ---
 
-## 🚀 Como Utilizar
-
-O script espera o caminho completo do log de autenticação como o primeiro argumento (`$1`).
-
-**Pré-requisitos:**
-1.  O sistema operacional deve ter as ferramentas **`curl`** e **`awk`** instaladas (padrão na maioria das distribuições Linux/macOS).
-2.  Acesso root/sudo ou permissão de leitura no arquivo de log (`/var/log/auth.log`).
-
-```bash
-# Executa a análise (o caminho do log é o primeiro argumento)
-./Log_Analyzer.sh /var/log/auth.log
