@@ -1,0 +1,11 @@
+Package: loghawk
+Version: 1.1
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Higor Francisco higorsilva1816@gmail.com
+Description: LogHawk - Ferramenta CLI em Bash para análise de logs e 
+detecção de ameaças.
+ O LogHawk é um utilitário leve e rápido para análise de logs de 
+autenticação, capaz de identificar tentativas de força bruta, logins 
+suspeitos e gerar relatórios em CSV e JSON.
